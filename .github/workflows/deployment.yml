@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: 18
       - run: npm install -g surge
-      - run: surge ./onerous-furniture.surge.sh  --token  792ee4dac7caa4c03ef22d9a9b3fddd9
+      - run: surge onerous-furniture.surge.sh  --token  792ee4dac7caa4c03ef22d9a9b3fddd9
