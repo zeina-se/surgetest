@@ -13,4 +13,8 @@ jobs:
         with:
           node-version: 18
       - run: npm install -g surge
+<<<<<<< HEAD
       - run: surge ./ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+=======
+      - run: surge onerous-furniture.surge.sh  --token  792ee4dac7caa4c03ef22d9a9b3fddd9
+>>>>>>> 48fb4298bf28585fc90e05406e7243fca8bf954e
